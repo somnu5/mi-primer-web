@@ -1,0 +1,489 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Walter Turncoat', cursive;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(5, 21, 24);
+}
+
+/*header y menu */
+header {
+    height: 250px;  
+    background-image: url(../imagenes/gemplay-images/bluefontq.gif);
+
+}
+
+
+/* efectos */
+
+@keyframes mi-efecto {
+   
+}
+
+.animate__animated .animate__fadeInLeft {
+    animation-delay: 1sg;
+    animation-duration: 2sg;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+ /* TODO SECTIONS Y CLASS DENTRO DE LA PAGINA */
+.govver{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-bottom: 100px;
+    
+    
+}
+.govver figure{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    cursor: pointer;
+    margin: 10px;
+   
+}
+
+.govver figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.govver figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.govver figure:hover .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.govver figure:hover .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px; 
+}
+
+.govver figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.govver figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;  
+}
+
+button {
+    
+    margin-top: 800px;
+}
+#carousel {
+    width: 1000px;
+}
+.buttom1 {
+    margin-top: 600px;
+}
+.dropdown {
+    color: blanchedalmond;
+    background-color: black;
+    width: 600px;  
+}
+
+#intro {
+    text-align: center;   
+    color: blanchedalmond;
+    background-color: black; 
+}
+
+#historia {
+    background-color: black;
+    color: blanchedalmond;
+    margin-bottom: 50px;
+    width: 100%;
+   
+    border: 1px solid coral;   
+}
+
+#historiaDelJuego {
+    text-align: center;
+}
+
+
+
+
+
+
+#nosotros {
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    width: 800px;
+    border-radius: 2%;
+    margin-left: 350px;
+    border: 2px solid coral;
+    margin-bottom: 20px;   
+}
+
+.nosotros2 {
+    margin-bottom: 200px;
+}
+
+#historiaDelJuego {
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    border: 2px solid coral;
+}
+
+#parches-info {
+    width: 50%;
+    margin-left: 200px;
+    color: blanchedalmond;
+    background-color: black;
+    border: solid 1px coral;
+    
+}
+
+
+
+
+
+
+
+/* VIDEOS */
+#gemplay-video{
+    
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 100px;
+    height: auto;
+    background-color: black;  
+}
+
+.video-gemplay {
+    border: 1px solid coral;   
+}
+
+.nosotros-video .nosotros1 {
+    width: 100%;
+    background-color: black;  
+}
+
+
+
+
+/* TODO LO QUE CONTIENE IMAGENES  */
+#carouselExampleControls {
+    width: 1000px;
+    height: 700px;
+    justify-content: center;
+    left: 300px;
+    margin-bottom: 150px;
+}
+
+.carrusel {
+    display: flex;
+}
+
+.carousel-inner{
+    border: 5px solid coral;
+    background-color: black;
+    margin-bottom: 150px;
+}
+
+.bichos {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border: 2px solid coral;
+    opacity: 85%;
+    margin-top: 100px;
+}
+.dragonete {
+    margin-right: 250px;
+}
+
+#historia img {
+    margin-left: 150px;
+}
+
+/* TITULARES */
+
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    margin: auto;
+    color: red;
+    text-align: center;
+    margin-right: 300px;
+    
+}
+
+h2 {
+    color: blanchedalmond;
+    background-color: black;
+}
+
+h3 {
+    margin-left: 735px;
+    color: rgb(206, 8, 8);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#ticketSupport {
+    color: rgb(248, 7, 7);
+}
+
+#intro h1 {
+    color: blanchedalmond;
+    background-color: black;
+    
+}
+
+
+
+
+.box {
+    background: black;
+    border: 1px solid white;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    color: blanchedalmond;
+    background-image: linear-gradient(to right, red , black 50%);
+    margin-top: 1000px;
+    width: 100%;
+    border: solid 1px coral;
+    
+}
+
+.contenedor-full-pie {
+    width: 100%;
+    max-width: 1200px;
+    
+    
+}
+
+
+.contenedorpie {
+    display: flex;
+   
+}
+
+.colum1 {
+    max-width: 500px;
+       
+}
+
+.colum1 h2 {
+    font-size: 15px;
+}
+
+
+.colum2 {
+    max-width: 500px;
+
+}
+
+.colum2 h2 {
+    font-size: 22px;
+}
+
+
+.colum2 .fila {
+margin-top: 20px;
+}
+
+.fila img{
+width: 36px;
+height: 36px;
+}
+
+.fila label{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.letras {
+    margin: 10px;
+}
+
+.colum3 h2{
+    font-size: 22px;
+    
+    
+}
+.colum3 .fila2 {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+
+.fila2 img{
+    width: 36px;
+    height: 36px;
+}
+
+
+ /* BREAKPOINTS */
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 900px;
+    }
+    #intro {
+        margin-top: 200px;
+    }
+    #gemplay-video .col-8 {
+          margin: 20px;
+    }
+
+    #gemplay-video .row {
+        margin: 10px;
+    }
+    
+  
+    #gemplay-video .col-8 img {
+        width: 500px;
+    }
+    .carousel-inner {
+        right: 600px;
+        width: 700px;
+        
+    }
+
+
+    .govver {
+        width: 709px;
+        display: none;
+        
+    }
+    #historia {
+        background-color: rgb(49, 9, 9);
+        color: blanchedalmond;
+        margin-bottom: 350px;
+        width: 600px;
+        margin: 10%;
+    }
+    
+    #parches-info {
+        margin: 10%;
+        background-color: rgb(49, 9, 9);
+    }
+
+  
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        height: 900px;
+    }
+
+    #intro {
+        margin-top: 200px;
+    }
+
+         #gemplay-video .col-8 {
+            margin: 20px;
+      }
+  
+      #gemplay-video .row {
+          margin: 10px;
+      }
+      
+      #gemplay-video .col-8 img {
+          width: 300px;
+      }
+
+      #gemplay-video video {
+          width: 350px;
+      }
+
+         .carousel-inner {
+            right: 600px;
+            width: 400px;
+            
+        }
+
+        .govver {
+         display: none;
+        }
+
+        #historia {
+            background-color: rgb(49, 9, 9);
+            color: blanchedalmond;
+            margin-bottom: 350px;
+            width: 350px;
+            margin: 5%;
+        }
+
+        #parches-info {
+            margin: 5%;
+            width: 350px;
+            background-color: rgb(49, 9, 9);
+        }
+
+        footer {
+            color: blanchedalmond;
+            background-image: linear-gradient(to right, red , black 50%);
+            margin-top: 1000px;
+            width: 100%;
+            border: solid 1px coral;
+            flex-direction: column;
+            display: flex;
+        }
+}

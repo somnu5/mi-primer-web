@@ -1,0 +1,349 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Walter Turncoat", cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #051518;
+}
+
+/*header y menu */
+header {
+  height: 250px;
+  background-image: url(../imagenes/gemplay-images/bluefontq.gif);
+}
+
+/* efectos */
+@-webkit-keyframes mi-efecto {}
+@keyframes mi-efecto {}
+.animate__animated .animate__fadeInLeft {
+  -webkit-animation-delay: 1sg;
+  animation-delay: 1sg;
+  -webkit-animation-duration: 2sg;
+  animation-duration: 2sg;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/* CONDICIONALES */
+h1 {
+  color: white;
+  background: black;
+}
+
+h2 {
+  color: blanchedalmond;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+}
+
+/* NOSOTROS PAG */
+.titulo h1 {
+  color: blanchedalmond;
+  text-align: center;
+  background-color: red;
+}
+
+.bichos {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border: 2px solid coral;
+  opacity: 85%;
+}
+
+.titular-historia {
+  color: greenyellow;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.info .info__nosotros2 {
+  background-color: black;
+  color: blanchedalmond;
+  border: 2px solid coral;
+  border-radius: 9px;
+}
+
+.info__titular {
+  color: blue;
+  text-align: center;
+}
+
+.info__gemplay-video {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.info__modos-de-juego {
+  background-color: black;
+  color: blanchedalmond;
+  border: 2px solid coral;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.history .history__cap1 {
+  background-color: black;
+  color: blanchedalmond;
+  border: solid 2px red;
+  margin-bottom: 50px;
+}
+.history .history__titular {
+  color: red;
+  text-align: center;
+}
+
+.history2 .history2__cap2 {
+  background-color: black;
+  color: blanchedalmond;
+  border: solid 2px coral;
+  margin-bottom: 50px;
+}
+.history2 .history2__titular {
+  color: coral;
+  text-align: center;
+}
+
+.history3 .history3__cap3 {
+  background-color: black;
+  color: blanchedalmond;
+  border: solid 2px yellow;
+  margin-bottom: 50px;
+}
+.history3 .history3__titular {
+  color: yellow;
+  text-align: center;
+}
+
+.history4 .history4__cap4 {
+  background-color: black;
+  color: blanchedalmond;
+  border: solid 2px green;
+  margin-bottom: 50px;
+}
+.history4 .history4__titular {
+  color: green;
+  text-align: center;
+}
+
+.history5 .history5__cap5 {
+  background-color: black;
+  color: blanchedalmond;
+  border: solid 2px crimson;
+}
+.history5 .history5__titular {
+  color: crimson;
+}
+
+/*Parches info pag */
+#ParchesInfo .info1 {
+  color: blanchedalmond;
+  background-color: darkblue;
+  border: 1px solid coral;
+  margin-bottom: 10px;
+}
+#ParchesInfo .info2 {
+  color: red;
+  background-color: black;
+  border: 1px solid coral;
+}
+#ParchesInfo .info3 {
+  color: red;
+  background-color: black;
+  border: 1px solid coral;
+}
+
+/* Gemplay-imagenes pag */
+#carouselExampleControls {
+  width: 1100px;
+  margin: 150px;
+}
+#carouselExampleControls button {
+  top: 870px;
+}
+
+#gemplay-video2 {
+  text-align: center;
+  background-color: black;
+}
+
+#gemplay-video3 {
+  text-align: center;
+  background-color: black;
+}
+
+.card img {
+  width: 700px;
+}
+
+/* End Game pag */
+.end {
+  width: 80%;
+  color: #FFEBCD;
+  border: 1px solid red;
+  background-color: black;
+  text-align: center;
+  margin-top: 80px;
+  justify-content: center;
+}
+.end .contri {
+  width: 400px;
+}
+
+.drops {
+  width: 80%;
+  color: #FFEBCD;
+  background-color: black;
+  border: 1px solid red;
+  margin-bottom: 250px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.card-group1 {
+  width: 1005px;
+  margin-left: 445px;
+  margin-top: 50px;
+}
+
+/* TICKET - SUPPORT PAG*/
+#ticketSupport {
+  width: 80%;
+  color: #FFEBCD;
+  border: 1px solid red;
+  background: black;
+  margin-left: 150px;
+}
+
+/* FOOTER SECCION*/
+footer {
+  color: #FFEBCD;
+  background-image: linear-gradient(to right, red, black 50%);
+  margin-top: 1000px;
+  width: 100%;
+  border: solid 1px coral;
+}
+footer .contenedor-full-pie {
+  width: 100%;
+  max-width: 1200px;
+}
+footer .contenedorpie {
+  display: flex;
+}
+footer .colum1 {
+  max-width: 500px;
+}
+footer .colum1 h2 {
+  font-size: 15px;
+}
+footer .colum2 {
+  max-width: 500px;
+}
+footer .colum2 h2 {
+  font-size: 22px;
+}
+footer .colum2 .fila {
+  margin-top: 20px;
+}
+footer .fila img {
+  width: 36px;
+  height: 36px;
+}
+footer .fila label {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+footer .letras {
+  margin: 10px;
+}
+footer .colum3 h2 {
+  font-size: 22px;
+}
+footer .colum3 .fila2 {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+footer .fila2 img {
+  width: 36px;
+  height: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    margin-bottom: 47px;
+  }
+
+  .card img {
+    width: 700px;
+  }
+
+  .carousel-inner {
+    right: 140px;
+    width: 680px;
+    bottom: 300px;
+    margin-top: 350px;
+  }
+
+  .end {
+    margin: 10px;
+  }
+
+  .drops {
+    width: 650px;
+    margin: 10px;
+  }
+
+  .card-group1 {
+    width: 700px;
+    margin: 10PX;
+  }
+
+  #ticketSupport {
+    width: 500px;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .bichos img {
+    width: 400px;
+  }
+
+  .card img {
+    width: 400px;
+  }
+
+  .carousel-inner {
+    width: 400px;
+  }
+
+  .info1 {
+    width: 397px;
+    margin-left: 10px;
+  }
+
+  .info2 {
+    width: 397px;
+    margin-left: 10px;
+  }
+
+  .info3 {
+    width: 397px;
+    margin-left: 10px;
+  }
+
+  .info3 img {
+    width: 390px;
+  }
+
+  #ticketSupport {
+    width: 390px;
+    margin: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
