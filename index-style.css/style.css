@@ -108,16 +108,13 @@ button {
     
     margin-top: 800px;
 }
-#carousel {
-    width: 1000px;
-}
-.buttom1 {
-    margin-top: 600px;
-}
+
+
 .dropdown {
     color: blanchedalmond;
     background-color: black;
-    width: 600px;  
+    width: 100%;
+    max-width: 600px;  
 }
 
 #intro {
@@ -150,8 +147,8 @@ button {
     color: blanchedalmond;
     background-color: black;
     text-align: center;
-    font-family: 'Staatliches', cursive;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     border-radius: 2%;
     margin-left: 350px;
     border: 2px solid coral;
@@ -162,13 +159,6 @@ button {
     margin-bottom: 200px;
 }
 
-#historiaDelJuego {
-    color: blanchedalmond;
-    background-color: black;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    border: 2px solid coral;
-}
 
 #parches-info {
     width: 50%;
@@ -292,17 +282,6 @@ h3 {
 
 
 
-.box {
-    background: black;
-    border: 1px solid white;
-    width: 400px;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    flex-grow: 1;
-    margin: 10px;
-}
-
 /* FOOTER */
 
 footer {
@@ -386,7 +365,8 @@ height: 36px;
 
 @media screen and (max-width: 768px) {
     header {
-        height: 900px;
+        width: 100%;
+        height: auto;
     }
     #intro {
         margin-top: 200px;
@@ -401,17 +381,19 @@ height: 36px;
     
   
     #gemplay-video .col-8 img {
-        width: 500px;
+        width: 100%;
+        max-width: 500px;
     }
     .carousel-inner {
-        right: 600px;
-        width: 700px;
+        right: 270px;
+        width: 100%;
+        max-width: 700px;
         
     }
-
+ 
 
     .govver {
-        width: 709px;
+        
         display: none;
         
     }
@@ -419,7 +401,8 @@ height: 36px;
         background-color: rgb(49, 9, 9);
         color: blanchedalmond;
         margin-bottom: 350px;
-        width: 600px;
+        width: 100%;
+        max-width: 600px;
         margin: 10%;
     }
     
@@ -433,7 +416,7 @@ height: 36px;
 
 @media screen and (max-width: 414px) {
     header {
-        height: 900px;
+        height: auto;
     }
 
     #intro {
@@ -453,12 +436,14 @@ height: 36px;
       }
 
       #gemplay-video video {
-          width: 350px;
+          width: 100%;
+          max-width: 300px;
       }
 
          .carousel-inner {
-            right: 600px;
-            width: 400px;
+            
+            width: 100%;
+            max-width: 400px;
             
         }
 
@@ -470,20 +455,22 @@ height: 36px;
             background-color: rgb(49, 9, 9);
             color: blanchedalmond;
             margin-bottom: 350px;
-            width: 350px;
+            width: 100%;
+            max-width: 350px;
             margin: 5%;
         }
 
         #parches-info {
             margin: 5%;
-            width: 350px;
+            width: 100%;
+            max-width: 350px;
             background-color: rgb(49, 9, 9);
         }
 
         footer {
             color: blanchedalmond;
             background-image: linear-gradient(to right, red , black 50%);
-            margin-top: 1000px;
+            margin-top: 300px;
             width: 100%;
             border: solid 1px coral;
             flex-direction: column;
