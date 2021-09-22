@@ -104,17 +104,16 @@ header {
     margin: auto;  
 }
 
-button {
-    
-    margin-top: 800px;
-}
 
 
 .dropdown {
     color: blanchedalmond;
     background-color: black;
     width: 100%;
-    max-width: 600px;  
+    max-width: 600px;
+    left: 500px;
+    border: solid 1px coral; 
+    bottom: 120px; 
 }
 
 #intro {
@@ -127,10 +126,9 @@ button {
     background-color: black;
     color: blanchedalmond;
     margin-bottom: 50px;
-    width: 100%;
-    max-width: 1700px;
+    width: 80%;
+    margin-left: 170px;
     text-align: center;
-   
     border: 1px solid coral;   
 }
 
@@ -161,7 +159,7 @@ button {
 
 #parches-info {
     width: 50%;
-    margin-left: 200px;
+    margin-left: 500px;
     color: blanchedalmond;
     background-color: black;
     border: solid 1px coral;
@@ -199,8 +197,30 @@ button {
     background-color: black;  
 }
 
+#GemplayVideo {
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    width: 90%;
+    text-align: center;
+}
 
 
+#Nosotros1 {
+background-color: black;
+}
+
+.row {
+    background-color: black;
+    color: blanchedalmond;
+    width: 60%;
+    border: solid 2px coral;
+    margin-bottom: 100px;
+    margin-left: 350px;
+    
+}
 
 /* TODO LO QUE CONTIENE IMAGENES  */
 #carouselExampleControls {
@@ -208,18 +228,15 @@ button {
     max-width: 1000px;
     height: auto;
     justify-content: center;
-    left: 300px;
+    left: 450px;
     margin-bottom: 150px;
 }
 
-.carrusel {
-    display: flex;
-}
 
 .carousel-inner{
-    border: 5px solid coral;
     background-color: black;
     margin-bottom: 150px;
+    
 }
 
 .bichos {
