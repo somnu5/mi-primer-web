@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(5, 21, 24);
+    background-color: rgb(20, 20, 20);
 }
 
 /*header y menu */
@@ -123,7 +123,7 @@ header {
 }
 
 #historia {
-    background-color: black;
+    background-color: rgb(2, 1, 1);
     color: blanchedalmond;
     margin-bottom: 50px;
     width: 80%;
@@ -193,7 +193,7 @@ header {
 }
 
 .nosotros-video .nosotros1 {
-    width: 100%;
+    
     background-color: black;  
 }
 
@@ -203,13 +203,20 @@ header {
     display: flex;
     flex-direction: row;
     margin-bottom: 100px;
-    width: 90%;
+    width: 70%;
     text-align: center;
+    margin-left: 250px;
 }
 
 
 #Nosotros1 {
 background-color: black;
+border: 1px solid coral;
+margin-bottom: 100px;
+}
+#Nosotros1 h2 {
+    color: coral;
+    
 }
 
 .row {
@@ -246,6 +253,7 @@ background-color: black;
     border: 2px solid coral;
     opacity: 85%;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .dragonete {
     margin-right: 250px;
@@ -387,26 +395,27 @@ height: 36px;
     #intro {
         margin-top: 200px;
     }
-    #gemplay-video .col-8 {
-          margin: 20px;
+    #GemplayVideo {
+        flex-direction: column;
+        margin-left: 15%;
     }
-
-    #gemplay-video .row {
-        margin: 10px;
+    #Nosotros1 {
+        max-width: 720px;
+        margin-left: 10px;
     }
-    
-  
-    #gemplay-video .col-8 img {
+    .row {
+        margin-left: 0%;
         width: 100%;
-        max-width: 500px;
+        max-width: 900px;
     }
     .carousel-inner {
-        right: 270px;
+        right: 400px;
         width: 100%;
-        max-width: 700px;
-        
+        max-width: 700px;   
     }
- 
+    .dropdown {
+        left: 50px;
+    }
 
     .govver {
         
@@ -414,7 +423,7 @@ height: 36px;
         
     }
     #historia {
-        background-color: rgb(49, 9, 9);
+       
         color: blanchedalmond;
         margin-bottom: 350px;
         width: 100%;
@@ -423,8 +432,8 @@ height: 36px;
     }
     
     #parches-info {
-        margin: 10%;
-        background-color: rgb(49, 9, 9);
+        margin-left: 25%;
+        
     }
 
   
