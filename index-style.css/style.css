@@ -447,31 +447,28 @@ height: 36px;
     #intro {
         margin-top: 200px;
     }
+    #GemplayVideo {
+        width: 100%;
+        max-width: 414px;
+        margin-left: 0%;
+    }
+    #Nosotros1 {
+        margin-left: 1px;
+    }
 
-         #gemplay-video .col-8 {
-            margin: 20px;
-      }
-  
-      #gemplay-video .row {
-          margin: 10px;
-      }
-      
-      #gemplay-video .col-8 img {
-          width: 300px;
-      }
-
-      #gemplay-video video {
-          width: 100%;
-          max-width: 300px;
-      }
+    .row {
+        display: none;
+    }
 
          .carousel-inner {
+            width: 80%;
             
-            width: 100%;
-            max-width: 400px;
             
         }
-
+        .dropdown {
+            left: 10px;
+            max-width: 400px;
+        }
         .govver {
          display: none;
         }
@@ -493,12 +490,6 @@ height: 36px;
         }
 
         footer {
-            color: blanchedalmond;
-            background-image: linear-gradient(to right, red , black 50%);
-            margin-top: 300px;
-            width: 100%;
-            border: solid 1px coral;
-            flex-direction: column;
-            display: flex;
+display: none;
         }
 }
