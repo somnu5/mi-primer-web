@@ -132,29 +132,6 @@ header {
     border: 1px solid coral;   
 }
 
-#historiaDelJuego {
-    text-align: center;
-}
-
-
-
-
-
-
-#nosotros {
-    color: blanchedalmond;
-    background-color: black;
-    text-align: center;
-    width: 100%;
-    max-width: 700px;
-    border-radius: 2%;
-    border: 2px solid coral;
-    margin-bottom: 20px;   
-}
-
-.nosotros2 {
-    margin-bottom: 200px;
-}
 
 
 #parches-info {
@@ -170,32 +147,8 @@ header {
 
 
 
-
-
 /* VIDEOS */
-#gemplay-video{
-    
-    width: 100%;
-    max-width: 1700px;
-    height: auto;
-    background-color: black;
-    color: blanchedalmond;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    margin-bottom: 100px;
-    height: auto;
-    background-color: black;  
-    
-}
 
-.video-gemplay {
-    border: 1px solid coral;   
-}
-
-.nosotros-video .nosotros1 {
-    
-    background-color: black;  
-}
 
 #GemplayVideo {
     background-color: black;
@@ -254,9 +207,6 @@ margin-bottom: 100px;
     opacity: 85%;
     margin-top: 100px;
     margin-bottom: 100px;
-}
-.dragonete {
-    margin-right: 250px;
 }
 
 
