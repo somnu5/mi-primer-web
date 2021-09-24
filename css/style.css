@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #051518;
+  background-color: #141414;
 }
 
 /*header y menu */
@@ -71,7 +71,7 @@ h2 {
 }
 
 .info__titular {
-  color: blue;
+  color: blanchedalmond;
   text-align: center;
 }
 
@@ -135,7 +135,7 @@ h2 {
 
 .history5 .history5__cap5 {
   background-color: black;
-  color: blanchedalmond;
+  color: red;
   border: solid 2px crimson;
 }
 .history5 .history5__titular {
@@ -144,8 +144,8 @@ h2 {
 
 /*Parches info pag */
 #ParchesInfo .info1 {
-  color: blanchedalmond;
-  background-color: darkblue;
+  color: red;
+  background-color: #050505;
   border: 1px solid coral;
   margin-bottom: 10px;
 }
@@ -158,6 +158,7 @@ h2 {
   color: red;
   background-color: black;
   border: 1px solid coral;
+  text-align: center;
 }
 
 /* Gemplay-imagenes pag */
@@ -346,5 +347,19 @@ footer .fila2 img {
   #ticketSupport {
     width: 390px;
     margin: 10px;
+  }
+
+  .end {
+    width: 100%;
+    max-width: 410px;
+    margin-left: 1px;
+  }
+
+  #drops {
+    display: none;
+  }
+
+  footer {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

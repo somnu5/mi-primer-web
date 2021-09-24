@@ -8,7 +8,7 @@
             box-sizing: border-box;
   }
   body {
-    background-color: #051518;
+    background-color:  rgb(20, 20, 20);
   }
   /*header y menu */
   header {
@@ -78,7 +78,7 @@
     border-radius: 9px;
   }
   .info__titular{
-    color: blue;
+    color: blanchedalmond;
     text-align: center;
   }
   .info__gemplay-video {
@@ -150,7 +150,7 @@
 .history5 {
   .history5__cap5 {
     background-color: black;
-    color: blanchedalmond;
+    color: red;
     border: solid 2px crimson;
   }
     .history5__titular {
@@ -160,8 +160,8 @@
   /*Parches info pag */
 #ParchesInfo {
   .info1{
-    color: blanchedalmond;
-    background-color: darkblue;
+    color: red;
+    background-color: rgb(5, 5, 5);
     border: 1px solid coral;
     margin-bottom: 10px;
   }
@@ -174,6 +174,7 @@
     color: red;
     background-color: black;
     border: 1px solid coral;
+    text-align: center;
   }
 
 }
@@ -364,5 +365,16 @@ footer {
   #ticketSupport {
     width: 390px;
     margin: 10px;
+  }
+  .end {
+    width: 100%;
+    max-width: 410px;
+    margin-left: 1px;
+  }
+  #drops {
+    display: none;
+  }
+  footer {
+    display: none;
   }
 }
