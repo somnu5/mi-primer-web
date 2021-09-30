@@ -13,11 +13,18 @@ body{
 /*header y menu */
 header {
     height: 250px;  
+    
+}
+.nav-link {
+    color: white;
+}
+.bg-edit {
     background-image: url(../imagenes/gemplay-images/bluefontq.gif);
-
 }
 
-
+.navbar-brand {
+    padding-left: 70px;
+}
 /* efectos */
 
 @keyframes mi-efecto {
@@ -111,9 +118,9 @@ header {
     background-color: black;
     width: 100%;
     max-width: 600px;
-    left: 500px;
+    left: 680px;
     border: solid 1px coral; 
-    bottom: 120px; 
+    top: 80px;
 }
 
 #intro {
@@ -135,11 +142,13 @@ header {
 
 
 #parches-info {
-    width: 50%;
-    margin-left: 500px;
+    width: 80%;
+    margin-left: 170px;
     color: blanchedalmond;
     background-color: black;
     border: solid 1px coral;
+    padding-left: 5px;
+    padding-right: 5px;
     
 }
 
@@ -160,7 +169,11 @@ header {
     text-align: center;
     margin-left: 250px;
 }
-
+.Parrafo-video {
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 #Nosotros1 {
 background-color: black;
@@ -175,29 +188,19 @@ margin-bottom: 100px;
 .row {
     background-color: black;
     color: blanchedalmond;
-    width: 60%;
+    width: 100%;
     border: solid 2px coral;
     margin-bottom: 100px;
-    margin-left: 350px;
     
 }
+.row img {
+    width: 640px;
+    height: 480px;
+}
+
 
 /* TODO LO QUE CONTIENE IMAGENES  */
-#carouselExampleControls {
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    justify-content: center;
-    left: 450px;
-    margin-bottom: 150px;
-}
 
-
-.carousel-inner{
-    background-color: black;
-    margin-bottom: 150px;
-    
-}
 
 .bichos {
     display: flex;
@@ -209,7 +212,16 @@ margin-bottom: 100px;
     margin-bottom: 100px;
 }
 
+.bichos h1 {
+    padding: 85px;
+}
 
+.texto {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0px 50px 0 rgba(0,0,0,0.80), 0 6px 20px 0 rgba(0,0,0,0.50);
+    text-shadow: 0 3px 3px black, 0 0 0 #000;
+    
+}
 
 /* TITULARES */
 
@@ -242,16 +254,13 @@ h3 {
     margin-bottom: 50px;
     text-align: center;
 }
-
-#ticketSupport {
-    color: rgb(248, 7, 7);
+h5 {
+    font-size: 90px;
+    padding: 100px;
 }
 
-#intro h1 {
-    color: blanchedalmond;
-    background-color: black;
-    
-}
+
+
 
 
 
@@ -359,9 +368,8 @@ height: 36px;
         max-width: 900px;
     }
     .carousel-inner {
-        right: 400px;
         width: 100%;
-        max-width: 700px;   
+         
     }
     .dropdown {
         left: 50px;
@@ -385,8 +393,14 @@ height: 36px;
         margin-left: 25%;
         
     }
+    .bichos {
+        display: flex;
+        flex-direction: column;
+    }
+    .bichos h1 {
+        text-align: center;
 
-  
+    }
 }
 
 @media screen and (max-width: 414px) {

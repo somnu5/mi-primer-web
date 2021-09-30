@@ -20,211 +20,243 @@
 
    <!--ACA ESTA EL ENCABEZADO DE LA PAGINA CON EL MENU DE NAVEGACION -->
    <header class="header">
-    <nav class="header__navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="header__logo" href="#"><img src="./imagenes/galeria de img/logo2.png" alt="Logo de Battle.Game Helbreath"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/gemplay-images.html">imagenes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/gemplay-images.html">Parches y info</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/gemplay-images.html">EndGame</a>
-              </li>
-            </ul>
+
+    <nav class="bg-edit navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="./imagenes/galeria de img/logo2.png" alt="logo de pagina"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link " aria-current="page" href="./index.html">home</a>
+            <a class="nav-link " aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+            <a class="nav-link " aria-current="page" href="./pages/gemplay-images.html">Imagenes</a>
+            <a class="nav-link " aria-current="page" href="./pages/parches.html">Parches y info</a>
+            <a class="nav-link " aria-current="page" href="./pages/EndGame.html">EndGame</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+
     </header>
 
 
-        <!-- ACA ESTA EL TITULO DEL JUEGO  CON UNA ANIMACION DE CLOUDFLARE-->
-
-        <section>
-
-          <main id="intro">
-
-            <div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ACA ESTA EL TITULO DEL JUEGO  CON UNA ANIMACION DE CLOUDFLARE-->
+        <!--ALGUNOS GIFS DE MONSTRUOS DEL JUEGO -->
+        <main>
+          
+          <section>
+            
+            <div class="bichos">
+              <img src="./imagenes/galeria de img/n79hPaL.gif" alt="imagen gif de abbadon mob">
               <h1 class="animate__animated animate__fadeInLeft">BATTLE.GAME-HELBREATH JUEGO MMORPG MUNDO ABIERTO</h1>
+              
+              <img class="dragonete" src="./imagenes/galeria de img/n79hPaL.gif" alt="imagen gif de dragon mob">
             </div>
+            
+            
             
           </main>
           
-          
         </section>
-
-
-
-
-
-        <!--ALGUNOS GIFS DE MONSTRUOS DEL JUEGO -->
-        
-
-          <div class="bichos">
-            <img src="./imagenes/galeria de img/n79hPaL.gif" alt="imagen gif de abbadon mob">
-            
-            <img class="dragonete" src="./imagenes/galeria de img/n79hPaL.gif" alt="imagen gif de dragon mob">
-          </div>
-          
-      
-
-
 
           <!-- VIDEO GEMPLAY DEL JUEGO Y UNA BREVE INTRODUCCION DE QUE SE TRATA EL JUEGO Y LA PAGINA-->
           
-      <section id="Nosotros1">
-        <h2>NOSOTROS</h2>
-        <div id="GemplayVideo">
+      <section id="GemplayVideo">
+        <div id="">
           <video src="./imagenes/gameplay-teaser.mp4"controls autoplay loop></video>
+        </div>
+        
+        <div class="Parrafo-video">
+          <h2>NOSOTROS</h2>
           <p>
             HELBREATH es un MMORPG de fantasía medieval de la vieja escuela con PvP abierto a gran escala y PvM relajante. Las características incluyen eventos regulares, variedad de construcción de personajes, encantamiento, artesanía, 
             hay 2 ciudades enemigas (Elvine y Aresden) el objetivo del juego es llegar a nivel maximo y matar monstruos - mobs para equipar tu personaje y poder pelear contra la ciudad enemiga . cada rival que mates te dara un punto que se denomina eka con ellas podras conseguir mejores items y mejoras para tu personaje.Helbreath es un MMORPG de fantasía 2D que tiene características que incluyen batallas a gran escala, personajes y monstruos únicos, avatares personalizables, equipos especiales y más. Los jugadores eligen entre las estadísticas istas de Guerrero, Mago y Mago, y el avance del personaje se produce a través de una mezcla de búsqueda, PvP y caza, dependiendo de la preferencia del jugador.
           </p>
-          
         </div>
+          
       </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--IMAGENES Y EXPLICACIONES DE ACCIONES DENTRO DEL JUEGO-->
-      <section id="info1">
-        <div class="row">
-          <div class="col-4">
-            <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Ek Count</a>
-              <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Leveling</a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">majestics</a>
-              <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Ciudades</a>
-            </div>
-          </div>
-          <div class="col-8">
-            <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Las denominadas Ekas son un punto que te da el juego por eliminar a un jugador de la ciudad contraria. cuando juntes una determinada cantidad de estos puntos podras intercambiarlos por armas y armaduras para mejorar tu personaje.
-                durante tu aventura podras toparte con enemigos de la ciudad contraria en cualquier nivel y podran pelear para obtener ekas.<img class="ekcount" src="./imagenes/ekcountt.jpg" alt=""> 
-              </div>
-              
-              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Empiezas tu aventura con tu personaje siendo un viajero lvl 0 donde tendras que ir subiendo de nivel en barracas para afrontar tu destino. empezaras desnudo y sin objetos para defenderte, tendras que ir siguiendo las misiones para poder mejorarte y subir de nivel  start: lvl 0 - max lvl: 180 <img src="./imagenes/lvl up2.jpg" alt=""></div>
-              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Una vez llegado a nivel maximo si sigues cazando criaturas y monstruos te seguiran dando experiencia pero en vez de darte nivel te daran los denominados majestics 1lvl= 1Majestic . Con estos majestics podras mejorar tus Armaduras <img src="./imagenes/dark knight.jpg.crdownload" alt=""></div>
-              <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">El juego Esta dividido por 2 grandes ciudades Aresden y Elvine. cuando empiezas el juego siendo un viajero podras elegir entre estas 2 ciudades para Defenderla contra la ciudad contraria y comenzar tu aventura <img src="./imagenes/elvine-aresden.png" alt=""> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  </section>
-
-
-
-
-        <!-- IMAGENES INTRODUCTORIAS DEL JUEGO -->
       
-
-        <div class="carrusel">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./imagenes/img.index/e0013743_07035283.jpg" class="d-block w-100" alt="pelea massiva dentro del juego">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/img.index/2.jpg" class="d-block w-100" alt="pelea massiva dentro del juego">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/img.index/3.jpeg" class="d-block w-100" alt="Pelea massiva dentro del juego">
-              </div>
-              <div class="carousel-item">
-                <img src="./imagenes/img.index/4j.jpeg" class="d-block w-100" alt="zona de descanzo dentro del juego">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <!-- IMAGENES INTRODUCTORIAS DEL JUEGO -->
+      
+      
+      
+      <section>
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagenes/img.index/e0013743_07035283.jpg" class="d-block w-100" alt="...">
+              <div class="texto carousel-caption d-none d-md-block">
+                <h5 class="text-img">Helbreath mmorpg mundo abierto</h5>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            
+            <div class="carousel-item">
+              <img src="./imagenes/img.index/2.jpg" class="d-block w-100" alt="...">
+              <div class="texto carousel-caption d-none d-md-block">
+                <h5>Helbreath mmorpg mundo abierto</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/img.index/3.jpeg" class="d-block w-100" alt="...">
+              <div class="texto carousel-caption d-none d-md-block">
+                <h5>Helbreath mmorpg mundo abierto</h5>
+              </div>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
         
+        
+      </section>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <!-- Link a la seccion de imagenes y videos del juego -->
+      
+      
+      
+      <section>
+        
+        <div class="dropdown">
+          <span>Aqui hay algunas imagenes inGame para ver mas has click aqui...</span>
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Gemplay-images
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="./pages/gemplay-images.html">Imagenes</a></li>
+          </ul>
+        </div>
+        
+      </section>
+      
+      
+      <!-- IMAGENES E INFORMACION DEL JUEGO -->
+      <section>
+        
+        <div class="govver">
+          <figure>
+            <img src="./imagenes/shop.jpg" alt="imagen zona shop dentro del juego">
+            <div class="capa">
+              <h3>.</h3>
+              <p>EL JUEGO TIENE ZONAS DE DESCANZO Y SOCIAL DENTRO DE EL. TAMBIEN OFRECE LUGARES DONDE COMERCIAR CON OTRO JUGADORES Y COMPRAR OBJETOS A LOS DIFERENTES MOBS DE CADA CIUDAD  </p>
+            </div>
+          </figure>
+          
+          
+          <figure>
+            <img src="./imagenes/img.index/massive fights.jpg" alt="imagen pelea massiva dentro del juego">
+            <div class="capa">
+              <h3>.</h3>
+              <p>EL JUEGO OFRECE PELEAS Y CAZERIA MASSIVA DE NPC DENTRO DEL JUEGO QUE TE OFRECERAN DROPS PARA MEJORAR TU PERSONAJE </p>
+            </div>
+          </figure>
+          
+          <figure>
+            <img src="./imagenes/img.index/2.jpg" alt="imagen pelea massiva dentro del juego">
+            <div class="capa">
+              <h3>.</h3>
+              <p>EL JUEGO OFRECE PELEAS MASSIVAS CONTRA JUGADORES DE LA CIUDAD CONTRARIA  </p>
+            </div>
+          </figure>
+          
+        </div>
+      </section>
+      
+      
+      
+      
+      
+      
+      
+              <!--IMAGENES Y EXPLICACIONES DE ACCIONES DENTRO DEL JUEGO-->
+        <section class="">
+              <div class="row">
+                <div class="col-4">
+                  <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Ek Count</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Leveling</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Ciudades</a>
+                  </div>
+                </div>
+                <div class="col-8">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Las denominadas Ekas son un punto que te da el juego por eliminar a un jugador de la ciudad contraria. cuando juntes una determinada cantidad de estos puntos podras intercambiarlos por armas y armaduras para mejorar tu personaje.
+                      durante tu aventura podras toparte con enemigos de la ciudad contraria<img class="ekcount" src="./imagenes/ekcountt.jpg" alt=""> 
+                    </div>
+                    
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Empiezas tu aventura con tu personaje siendo un viajero lvl 0 donde tendras que ir subiendo de nivel en barracas para afrontar tu destino. empezaras desnudo y sin objetos para defenderte, tendras que ir siguiendo las misiones para poder mejorarte y subir de nivel  start: lvl 0 - max lvl: 180 <img src="./imagenes/lvl up2.jpg" alt=""></div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">El juego Esta dividido por 2 grandes ciudades Aresden y Elvine. cuando empiezas el juego siendo un viajero podras elegir entre estas 2 ciudades para Defenderla  <img src="./imagenes/elvine-aresden.png" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </section>
+    
     
       
-          <!-- Link a la seccion de imagenes y videos del juego -->
-
-    <section>
-
-      <div class="dropdown">
-        <span>Aqui hay algunas imagenes inGame para ver mas has click aqui...</span>
-        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-          Gemplay-images
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <li><a class="dropdown-item" href="./pages/gemplay-images.html">Imagenes</a></li>
-        </ul>
-      </div>
       
-    </section>
+      
+      
+      
+      
+      
+      
+      
 
 
-      <!-- IMAGENES E INFORMACION DEL JUEGO -->
-    <section>
-
-      <div class="govver">
-        <figure>
-          <img src="./imagenes/shop.jpg" alt="imagen zona shop dentro del juego">
-          <div class="capa">
-            <h3>.</h3>
-            <p>EL JUEGO TIENE ZONAS DE DESCANZO Y SOCIAL DENTRO DE EL. TAMBIEN OFRECE LUGARES DONDE COMERCIAR CON OTRO JUGADORES Y COMPRAR OBJETOS A LOS DIFERENTES MOBS DE CADA CIUDAD  </p>
-          </div>
-        </figure>
-        
-        
-        <figure>
-          <img src="./imagenes/img.index/massive fights.jpg" alt="imagen pelea massiva dentro del juego">
-          <div class="capa">
-            <h3>.</h3>
-            <p>EL JUEGO OFRECE PELEAS Y CAZERIA MASSIVA DE NPC DENTRO DEL JUEGO QUE TE OFRECERAN DROPS PARA MEJORAR TU PERSONAJE </p>
-          </div>
-        </figure>
-        
-        <figure>
-          <img src="./imagenes/img.index/2.jpg" alt="imagen pelea massiva dentro del juego">
-          <div class="capa">
-            <h3>.</h3>
-            <p>EL JUEGO OFRECE PELEAS MASSIVAS CONTRA JUGADORES DE LA CIUDAD CONTRARIA  </p>
-          </div>
-        </figure>
-        
-      </div>
-    </section>
       
         <!-- BREVE INTRODUCCION A LA HISTORIA DEL JUEGO -->
 
