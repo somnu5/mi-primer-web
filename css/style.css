@@ -17,6 +17,32 @@ header {
   background-image: url(../imagenes/gemplay-images/bluefontq.gif);
 }
 
+.nav-link {
+  color: coral;
+}
+
+.navbar-toggler {
+  color: coral;
+}
+
+.navbar-toggler-icon img {
+  width: 35px;
+}
+
+.bichos {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border: 2px solid coral;
+  opacity: 85%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bichos h1 {
+  padding: 85px;
+}
+
 /* efectos */
 @-webkit-keyframes mi-efecto {}
 @keyframes mi-efecto {}
@@ -92,7 +118,7 @@ h2 {
 .history .history__cap1 {
   background-color: black;
   color: blanchedalmond;
-  border: solid 2px red;
+  border: solid 2px coral;
   margin-bottom: 50px;
 }
 .history .history__titular {
@@ -114,7 +140,7 @@ h2 {
 .history3 .history3__cap3 {
   background-color: black;
   color: blanchedalmond;
-  border: solid 2px yellow;
+  border: solid 2px coral;
   margin-bottom: 50px;
 }
 .history3 .history3__titular {
@@ -125,7 +151,7 @@ h2 {
 .history4 .history4__cap4 {
   background-color: black;
   color: blanchedalmond;
-  border: solid 2px green;
+  border: solid 2px coral;
   margin-bottom: 50px;
 }
 .history4 .history4__titular {
@@ -135,8 +161,8 @@ h2 {
 
 .history5 .history5__cap5 {
   background-color: black;
-  color: red;
-  border: solid 2px crimson;
+  color: blanchedalmond;
+  border: solid 2px coral;
 }
 .history5 .history5__titular {
   color: crimson;

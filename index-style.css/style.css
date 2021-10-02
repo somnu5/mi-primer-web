@@ -16,7 +16,13 @@ header {
     
 }
 .nav-link {
-    color: white;
+    color: coral;
+}
+.navbar-toggler {
+    color: coral;
+}
+.navbar-toggler-icon img {
+    width: 35px;
 }
 .bg-edit {
     background-image: url(../imagenes/gemplay-images/bluefontq.gif);
@@ -51,6 +57,7 @@ header {
     align-items: center;
     height: 80vh;
     margin-bottom: 100px;
+    
     
     
 }
@@ -121,6 +128,7 @@ header {
     left: 680px;
     border: solid 1px coral; 
     top: 80px;
+    margin-bottom: 200px;
 }
 
 #intro {
@@ -390,26 +398,33 @@ height: 36px;
     }
     
     #parches-info {
-        margin-left: 25%;
+        margin-left: 10%;
         
     }
     .bichos {
         display: flex;
         flex-direction: column;
+        width: 650px;
+        margin: 50px;
     }
     .bichos h1 {
         text-align: center;
 
+    }
+    .bichos img {
+       display: none;
+        
     }
 }
 
 @media screen and (max-width: 414px) {
     header {
         height: auto;
+        margin-bottom: 100px;
     }
 
-    #intro {
-        margin-top: 200px;
+    .bichos {
+        display: none;
     }
     #GemplayVideo {
         width: 100%;
@@ -424,11 +439,9 @@ height: 36px;
         display: none;
     }
 
-         .carousel-inner {
-            width: 80%;
+
             
-            
-        }
+        
         .dropdown {
             left: 10px;
             max-width: 400px;
