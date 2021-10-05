@@ -196,14 +196,6 @@ h2 {
 }
 
 /* Gemplay-imagenes pag */
-#carouselExampleControls {
-  width: 1100px;
-  margin: 150px;
-}
-#carouselExampleControls button {
-  top: 870px;
-}
-
 #gemplay-video2 {
   text-align: center;
   background-color: black;
@@ -320,13 +312,6 @@ footer .fila2 img {
     width: 700px;
   }
 
-  .carousel-inner {
-    right: 140px;
-    width: 680px;
-    bottom: 300px;
-    margin-top: 350px;
-  }
-
   .end {
     margin: 10px;
   }
@@ -340,22 +325,13 @@ footer .fila2 img {
     width: 700px;
     margin: 10PX;
   }
-
-  #ticketSupport {
-    width: 500px;
-    margin: 15px;
-  }
 }
 @media screen and (max-width: 414px) {
   .bichos img {
-    width: 400px;
+    display: none;
   }
 
   .card img {
-    width: 400px;
-  }
-
-  .carousel-inner {
     width: 400px;
   }
 
@@ -395,5 +371,13 @@ footer .fila2 img {
 
   footer {
     display: none;
+  }
+
+  .card-group1 {
+    width: 414px;
+  }
+
+  .end img {
+    width: 408px;
   }
 }/*# sourceMappingURL=style.css.map */
