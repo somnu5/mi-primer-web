@@ -364,17 +364,17 @@ height: 36px;
     }
     #GemplayVideo {
         flex-direction: column;
-        margin-left: 15%;
+        margin-left: 7%;
     }
     #Nosotros1 {
         max-width: 720px;
         margin-left: 10px;
     }
     .row {
-        margin-left: 0%;
-        width: 100%;
-        max-width: 900px;
+      display: none;
     }
+   
+    
     .carousel-inner {
         width: 100%;
          
