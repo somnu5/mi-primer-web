@@ -13,7 +13,7 @@
   /*header y menu */
   header {
     height: 250px;
-    background-image: url(../imagenes/gemplay-images/bluefontq.gif);
+    
   }
   .nav-link {
     color: coral;
@@ -34,6 +34,7 @@
 }
 
 
+
 .bichos {
   display: flex;
   justify-content: space-between;
@@ -46,6 +47,7 @@
 
 .bichos h1 {
   padding: 85px;
+  color: blanchedalmond;
 }
 
   /* efectos */
@@ -103,12 +105,16 @@
     color: greenyellow;
     text-align: center;
     margin-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .info .info__nosotros2 {
     background-color: black;
     color: blanchedalmond;
     border: 2px solid coral;
     border-radius: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .info__titular{
     color: blanchedalmond;
@@ -127,6 +133,8 @@
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .history {
     .history__cap1 {
@@ -134,6 +142,8 @@
       color: blanchedalmond;
       border: solid 2px coral;
       margin-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
       .history__titular {
         color: red;
@@ -146,6 +156,8 @@
       color: blanchedalmond;
       border: solid 2px coral;
       margin-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
       .history2__titular {
         color: coral;
@@ -159,6 +171,8 @@
       color: blanchedalmond;
       border: solid 2px coral;
       margin-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
       .history3__titular {
         color: yellow;
@@ -172,6 +186,8 @@
       color: blanchedalmond;
       border: solid 2px coral;
       margin-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
       .history4__titular {
         color: green;
@@ -185,6 +201,8 @@
     background-color: black;
     color: blanchedalmond;
     border: solid 2px coral;
+    padding-left: 20px;
+    padding-right: 20px;
   }
     .history5__titular {
       color: crimson;
@@ -193,28 +211,32 @@
   /*Parches info pag */
 #ParchesInfo {
   .info1{
-    color: red;
+    color: blanchedalmond;
     background-color: rgb(5, 5, 5);
     border: 1px solid coral;
     margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .info2 {
-    color: red;
+    color: blanchedalmond;
     background-color: black;
     border: 1px solid coral;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .info3 {
-    color: red;
+    color: blanchedalmond;
     background-color: black;
     border: 1px solid coral;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }
 /* Gemplay-imagenes pag */
-#carouselExampleControls img {
 
-}
 #gemplay-video2 {
  
   text-align: center;
@@ -236,8 +258,10 @@ width: 700px;
 /* End Game pag */
 $boxResponsive: 80%;
 $boxColor: #FFEBCD;
-$boxBorder: 1px solid red;
+$boxBorder: 1px solid coral;
 $boxBackcolor: black;
+
+
 .end {
   width: $boxResponsive;
   color: $boxColor;
@@ -245,7 +269,11 @@ $boxBackcolor: black;
   background-color: $boxBackcolor;
   text-align: center;
   margin-top: 80px;
-  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+
+
   .contri {
     width: 400px;
   }
@@ -255,9 +283,9 @@ $boxBackcolor: black;
   color: $boxColor;
   background-color: $boxBackcolor;
   border: $boxBorder;
-  margin-bottom: 250px;
-  margin-top: 50px;
-  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  margin: 0 auto;
 }
 
 .card-group1 {
@@ -265,6 +293,14 @@ $boxBackcolor: black;
   max-width: 700px;
   margin-left: 445px;
   margin-top: 50px;
+  border: solid coral 2px;
+  margin: 0 auto;
+  
+  
+}
+
+.card-group1 img {
+  width: 696px;
 }
 
 /* TICKET - SUPPORT PAG*/
@@ -375,7 +411,8 @@ footer {
     margin-left: 10px;
   }
   .info3 img {
-    width: 390px;
+    width: 370px;
+    
   }
   #ticketSupport {
     width: 390px;
@@ -384,7 +421,14 @@ footer {
   .end {
     width: 100%;
     max-width: 410px;
-    margin-left: 1px;
+    margin: 0 auto;
+    .img {
+      width: 380px;
+    }
+  }
+  .card-group1 {
+    width: 380px;
+    margin: 0 auto;
   }
   #drops {
     display: none;

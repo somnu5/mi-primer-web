@@ -8,6 +8,7 @@
 }
 body{
     background-color: rgb(20, 20, 20);
+    
 }
 
 /*header y menu */
@@ -144,7 +145,9 @@ header {
     width: 80%;
     margin-left: 170px;
     text-align: center;
-    border: 1px solid coral;   
+    border: 1px solid coral;
+    padding-left: 5px;
+    padding-right: 5px;   
 }
 
 
@@ -173,9 +176,9 @@ header {
     display: flex;
     flex-direction: row;
     margin-bottom: 100px;
-    width: 70%;
+    width: 100%;
     text-align: center;
-    margin-left: 250px;
+    border: solid 1px coral;
 }
 .Parrafo-video {
     margin: 10px;
@@ -263,8 +266,9 @@ h3 {
     text-align: center;
 }
 h5 {
-    font-size: 90px;
+    font-size: 60px;
     padding: 100px;
+    
 }
 
 
@@ -364,7 +368,7 @@ height: 36px;
     }
     #GemplayVideo {
         flex-direction: column;
-        margin-left: 7%;
+        
     }
     #Nosotros1 {
         max-width: 720px;
@@ -374,11 +378,11 @@ height: 36px;
       display: none;
     }
    
-    
-    .carousel-inner {
-        width: 100%;
-         
+    h5 {
+        font-size: 20px;
+        padding: 0%;
     }
+    
     .dropdown {
         left: 50px;
     }

@@ -14,7 +14,6 @@ body {
 /*header y menu */
 header {
   height: 250px;
-  background-image: url(../imagenes/gemplay-images/bluefontq.gif);
 }
 
 .nav-link {
@@ -49,6 +48,7 @@ header {
 
 .bichos h1 {
   padding: 85px;
+  color: blanchedalmond;
 }
 
 /* efectos */
@@ -95,6 +95,8 @@ h2 {
   color: greenyellow;
   text-align: center;
   margin-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .info .info__nosotros2 {
@@ -102,6 +104,8 @@ h2 {
   color: blanchedalmond;
   border: 2px solid coral;
   border-radius: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .info__titular {
@@ -121,6 +125,8 @@ h2 {
   border-radius: 10px;
   margin-top: 50px;
   margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .history .history__cap1 {
@@ -128,6 +134,8 @@ h2 {
   color: blanchedalmond;
   border: solid 2px coral;
   margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .history .history__titular {
   color: red;
@@ -139,6 +147,8 @@ h2 {
   color: blanchedalmond;
   border: solid 2px coral;
   margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .history2 .history2__titular {
   color: coral;
@@ -150,6 +160,8 @@ h2 {
   color: blanchedalmond;
   border: solid 2px coral;
   margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .history3 .history3__titular {
   color: yellow;
@@ -161,6 +173,8 @@ h2 {
   color: blanchedalmond;
   border: solid 2px coral;
   margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .history4 .history4__titular {
   color: green;
@@ -171,6 +185,8 @@ h2 {
   background-color: black;
   color: blanchedalmond;
   border: solid 2px coral;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .history5 .history5__titular {
   color: crimson;
@@ -178,21 +194,27 @@ h2 {
 
 /*Parches info pag */
 #ParchesInfo .info1 {
-  color: red;
+  color: blanchedalmond;
   background-color: #050505;
   border: 1px solid coral;
   margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #ParchesInfo .info2 {
-  color: red;
+  color: blanchedalmond;
   background-color: black;
   border: 1px solid coral;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #ParchesInfo .info3 {
-  color: red;
+  color: blanchedalmond;
   background-color: black;
   border: 1px solid coral;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Gemplay-imagenes pag */
@@ -214,11 +236,12 @@ h2 {
 .end {
   width: 80%;
   color: #FFEBCD;
-  border: 1px solid red;
+  border: 1px solid coral;
   background-color: black;
   text-align: center;
   margin-top: 80px;
-  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 .end .contri {
   width: 400px;
@@ -228,10 +251,10 @@ h2 {
   width: 80%;
   color: #FFEBCD;
   background-color: black;
-  border: 1px solid red;
-  margin-bottom: 250px;
-  margin-top: 50px;
-  text-align: center;
+  border: 1px solid coral;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  margin: 0 auto;
 }
 
 .card-group1 {
@@ -239,13 +262,19 @@ h2 {
   max-width: 700px;
   margin-left: 445px;
   margin-top: 50px;
+  border: solid coral 2px;
+  margin: 0 auto;
+}
+
+.card-group1 img {
+  width: 696px;
 }
 
 /* TICKET - SUPPORT PAG*/
 #ticketSupport {
   width: 80%;
   color: #FFEBCD;
-  border: 1px solid red;
+  border: 1px solid coral;
   background: black;
   margin-left: 150px;
 }
@@ -351,7 +380,7 @@ footer .fila2 img {
   }
 
   .info3 img {
-    width: 390px;
+    width: 370px;
   }
 
   #ticketSupport {
@@ -362,7 +391,15 @@ footer .fila2 img {
   .end {
     width: 100%;
     max-width: 410px;
-    margin-left: 1px;
+    margin: 0 auto;
+  }
+  .end .img {
+    width: 380px;
+  }
+
+  .card-group1 {
+    width: 380px;
+    margin: 0 auto;
   }
 
   #drops {
