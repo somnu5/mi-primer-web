@@ -435,6 +435,10 @@ height: 36px;
         max-width: 414px;
         margin-left: 0%;
     }
+
+    #GemplayVideo video {
+        width: 380px;
+    }
     #Nosotros1 {
         margin-left: 1px;
     }
